@@ -1,6 +1,3 @@
-# This function uses the Gram-schmidt process to calculate the dimension
-# spanned by a list of vectors.
-# Since each vector is normalised to one, or is zero,
 import numpy as np
 import numpy.linalg as la
 
