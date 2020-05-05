@@ -1,3 +1,4 @@
+
 import numpy as np
 import numpy.linalg as la
 
@@ -22,7 +23,7 @@ V = np.array([[1,0,2,6],
               [0,1,8,2],
               [2,8,3,1],
               [1,-6,2,3]], dtype=np.float_)
-gsBasis4(V)
+
 print(gsBasis(V))
 '''
 array([[ 0.40824829, -0.1814885 ,  0.04982278,  0.89325973],
@@ -30,7 +31,7 @@ array([[ 0.40824829, -0.1814885 ,  0.04982278,  0.89325973],
        [ 0.81649658,  0.50816781, -0.06462163, -0.26631346],
        [ 0.40824829, -0.83484711,  0.07942048, -0.36063281]]
 '''
-print( dimensions(A))
+print( dimensions(V))
 
 #3.0
 #what if our vector that is a linear combination of the others.
